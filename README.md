@@ -6,5 +6,4 @@ The Hawker Siddeley HS 748 is a medium-sized turboprop airliner originally desig
 
 # Discord Development Server Link:
 https://discord.gg/rJFrSFZpPq
-# Aircraft Development Pre-History.
-This aircraft was originally created for FS9/FS2004 by Rick Piper.
+
