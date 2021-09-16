@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<PropertyList>
+
+<sim>
+  <description>Hawker Siddeley HS-748</description>
+  <long-description>The Hawker Siddeley HS 748 is a medium-sized turboprop airliner originally designed and initially produced by the British aircraft manufacturer Avro.</long-description>
+	<aircraft-version>0.001</aircraft-version>
+  <rating>
+    <FDM type="int">1</FDM>
+    <systems type="int">0</systems>
+    <cockpit type="int">0</cockpit>
+    <model type="int">1</model>
+  </rating>
+  <author>Original FSX Aircraft by Rick Piper, converted and upgraded to Flightgear by FGINDIA and FGHK team.</author>
+  
+	<tags>
+		<tag n="0">hs-748</tag>
+		<tag n="1">FSX-FG</tag>
+		<tag n="2">turboprop</tag>
+	</tags>
+	
+  <flight-model>jsb</flight-model>
+  <aero>HS-748</aero>
+  <engine>rr-dart</engine>
+    
+
+  
+  <startup>
+     <splash-texture>#</splash-texture>
+  </startup>
+  
+  <flaps>
+    <setting>0.00</setting>
+    <setting>0.2727</setting>
+    <setting>0.5454</setting>
+	<setting>0.8181</setting>
+    <setting>1.0</setting>
+  </flaps>
+
+
+  <model>
+    <path>Aircraft/HS-748/Models/HS748.xml</path>
+  </model>
+
+  <sound>
+    <path>Aircraft/HS-748/Sounds/Sounds.xml</path>
+    <switch type = "bool">0</switch>
+    <Evolume>1</Evolume>
+  </sound>
+</sim>
+
+<engines>
+  <engine n="0">
+    <running>true</running>
+    <rpm>1329</rpm>
+    <reverser-position type="double">0.000000</reverser-position>
+  </engine>
+  <engine n="1">
+    <running>true</running>
+    <rpm>1329</rpm>
+    <reverser-position type="double">0.000000</reverser-position>
+  </engine>
+</engines>
+
+<view n="0">
+	<name>Captain View</name>
+	<type>lookfrom</type>
+	<internal type="bool">true</internal>
+    <config>
+		<x-offset-m type="double">-0.565</x-offset-m>
+		<y-offset-m type="double">-0.25</y-offset-m>
+		<z-offset-m type="double">-23.75</z-offset-m>
+		<pitch-offset-deg>-12.43</pitch-offset-deg>
+		<limits>
+			<enabled type="bool">true</enabled> 
+		</limits>
+	<default-field-of-view-deg type="double">87.0</default-field-of-view-deg>
+    </config>
+</view>
+</PropertyList>
